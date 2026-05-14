@@ -1,0 +1,106 @@
+body {
+    font-family:Arial;
+margin:0;
+background:#f0f4f8;
+scroll-behavior:smooth;
+text-align:center;
+}
+/* Navigation */
+nav{
+background:#002244;
+padding:15px;
+position:sticky;
+top:0;
+}
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+/* Sections */
+section{
+padding:60px;
+}
+
+/* Home */
+#home{
+background:#003366;
+color:white;
+}
+/* Button */
+.btn{
+background:white;
+color:#003366;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* Skills */
+.card{
+display:inline-block;
+background:white;
+padding:15px;
+margin:10px;
+border-radius:8px;
+box-shadow:0 0 10px gray;
+}
+
+/* Projects */
+.project{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+/* Form */
+input, textarea{
+width:60%;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:#003366;
+color:white;
+border:none;
+}
+
+/* Footer */
+footer{
+background:#002244;
+color:white;
+padding:20px;
+}
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+.about-img{
+    width: 140px;
+    height:140px;
+    border-radius:50%;
+     object-fit:cover;
+}
+
+#about p{
+    font-size:18px;
+    line-height:1.8;
+    text-align:left;
+}
+   
+    
+    
+
+
+
+
